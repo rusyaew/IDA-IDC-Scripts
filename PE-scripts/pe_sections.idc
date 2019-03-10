@@ -1884,7 +1884,7 @@ static ExportStructs(imageBase, DLL_name)
 
   AddStrucMember(sHandle, "export_flags",           0x00, FF_DWRD, -1, 4);
   AddStrucMember(sHandle, "time_date_samp",         0x04, FF_DWRD, -1, 4);
-  AddStrucMember(sHandle, "version"                 0x08, FF_DWRD, -1, 4);
+  AddStrucMember(sHandle, "version",                 0x08, FF_DWRD, -1, 4);
   AddStrucMember(sHandle, "name",                   0x0c, FF_DWRD | FF_0OFF, imageBase, 4);
   AddStrucMember(sHandle, "ordinal_base",           0x10, FF_DWRD, -1, 4);
   AddStrucMember(sHandle, "address_table_count",    0x14, FF_DWRD, -1, 4);
